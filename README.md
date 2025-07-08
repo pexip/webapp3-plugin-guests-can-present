@@ -13,11 +13,31 @@ An additional icon is added to toolbar.
 - **Enable screen sharing for guests**: Guests are allowed to start screen sharing in a meeting
 - **Disable screen sharing for guests**: Guests are not allowed to start screen sharing in the meeting
 
+The icon reflects the state, if the is allowed to present the icon is marked as active.
+
+![Active](./docs/images/active.png)
+
+![Active Tooltip](./docs/images/active_tooltip.png)
+
+![Inactive](./docs/images/inactive.png)
+
+![Inactive](./docs/images/inactive_tooltip.png)
+
+If the state is changed, a notification shows up for hosts.
+
+![Inactive](./docs/images/guest_can_present_toast.png)
+
+![Inactive](./docs/images/guest_can_no_longer_present.png)
+
+
 The plugin relies on the generic API request: `plugin.conference.sendRequest`. This function is not typed published plugin-api package.
 
 ## Limitations
 
-The plugin only works for transcoded meetings, it will not show up in direct media calls or before Infinity V38
+The plugin only works for transcoded meetings, it will not show up in direct media calls or before Infinity V38.
+
+If there is a running presentation, the screen sharing will not be released by the state change.
+This maybe change in future versions of Infinity.
 
 ## Run for development
 
