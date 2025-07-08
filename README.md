@@ -30,7 +30,7 @@ If the state is changed, a notification shows up for hosts.
 ![Inactive](./docs/images/guest_can_no_longer_present.png)
 
 
-The plugin relies on the generic API request: `plugin.conference.sendRequest`. This function is not typed published plugin-api package.
+The plugin relies on the generic API request: `plugin.conference.sendRequest`. This function is not typed in published plugin-api package.
 
 ## Limitations
 
