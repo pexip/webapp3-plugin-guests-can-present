@@ -1,5 +1,5 @@
 {
-  "name": "webapp3-plugin-guest-can-present",
+  "name": "webapp3-plugin-guests-can-present",
   "version": "1.0.0",
   "description": "Web App 3 Plugin: Control guest presentation capabilities",
   "main": "index.js",

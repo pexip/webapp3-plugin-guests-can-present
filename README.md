@@ -1,4 +1,4 @@
-# Web App 3 Plugin: Guest can present
+# Web App 3 Plugin: Guests can present
 
 From v38 Pexip Infinity has server-side capability to control whether or not guests
 are allowed to start screen-sharing.
