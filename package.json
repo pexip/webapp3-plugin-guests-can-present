@@ -1,6 +1,6 @@
 {
   "name": "webapp3-plugin-guests-can-present",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Web App 3 Plugin: Control guest presentation capabilities",
   "main": "index.js",
   "scripts": {
