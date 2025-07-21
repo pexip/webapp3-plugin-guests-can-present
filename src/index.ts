@@ -11,8 +11,8 @@ let role: undefined | 'guest' | 'chair';
 
 // Register the plugin with the Pexip Infinity Plugin API
 const plugin = await registerPlugin({
-  id: "webapp3-plugin-guest-can-present",
-  version: 0,
+  id: "webapp3-plugin-guests-can-present",
+  version: 1,
 });
 
 // Get the current participant's role
