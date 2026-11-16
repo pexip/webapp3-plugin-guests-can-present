@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Upgraded development dependencies: ESLint 10, eslint-config-love 158, eslint-config-prettier 10, Prettier 3.10, TypeScript 7, Vite 8 and vite-plugin-mkcert 2.
 - Changed TypeScript `moduleResolution` to `bundler`.
+- Removed unused development dependencies: eslint-config-love, eslint-config-prettier, and Prettier.
 
 ## [1.0.1]
 
